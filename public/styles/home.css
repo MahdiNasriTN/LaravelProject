@@ -1,0 +1,191 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+  }
+
+  .homeContainer
+  {
+    padding-top:55px;
+    width:100% !important;
+    margin-right:5px !important;
+    display:flex;
+    flex-direction:row;
+  }
+
+
+  .rightContainer
+  {
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: space-evenly; 
+    overflow: auto;
+    padding-right:10px;
+    padding-top:15px;
+    gap: 10px; 
+    overflow-x: auto; 
+    justify-content: flex-start; 
+    align-items: flex-start;
+    padding-bottom:80px; 
+  }
+
+
+
+  .leftContainer
+  {
+    
+    width:15%;
+    margin-right:50px;
+    border-right: 0.0625rem solid rgb(191, 199, 216);
+    height:100vh;
+  }
+
+  .HomeParghAndIcon
+  {
+    display:flex;
+    padding-left:25px;
+    padding-top:15px;
+    padding-bottom:4px;
+    cursor: pointer;
+    border-bottom:0.0625rem solid rgb(191, 199, 216);;
+  }
+
+  .HomeParghAndIcon:hover
+  {
+    background-color: #f8f9fa;
+    width:100%;
+  }
+
+  .HomeIcon
+  {
+    padding-right:20px;
+  }
+
+  .HomeParagh
+  {
+    padding-top:5px;
+    font-size:18px;
+    font-family: 'Righteous', cursive !important;
+  }
+
+
+  .classroomNames
+  {
+    padding-top:20px;
+  }
+  .classroomNameAndTitle
+  {
+    display:flex;
+    padding-left:25px;
+    align-items: center;
+    cursor: pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+
+  }
+
+  .classroomNameAndTitle:hover
+  {
+    background-color: #f8f9fa;
+
+  }
+
+  .p-remove
+  {
+    margin-bottom: 0rem !important;
+  }
+
+  .classroom-fletter
+  {
+    height:35px;
+    width:35px;
+    border-radius:50px;
+    background-color:rgb(25,103,210);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-right:10px;
+  }
+
+  .marg-class
+  {
+    margin-top:7px;
+  }
+
+  .classroom-title
+  {
+    font-weight: 600;
+    font-size:17.2px;
+  }
+
+  .classroom-subject
+  {
+    font-size:14px;
+  }
+
+  a
+  {
+    color: black !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  a:hover
+  {
+    text-decoration: none !important;
+  }
+
+  .classroom-dots
+  {
+    align-self: flex-end;
+    margin-top: auto;
+  }
+
+  .classroom-code
+  {
+    border: 1px solid transparent;
+    border-color: #e0e0e0;
+    border-radius: 15px;
+    width:12%;
+    margin-right:50px;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    padding-left:22px;
+
+  }
+
+  .classroom-classcode
+  {
+    font-size:18px;
+    font-family: 'Righteous', cursive !important;
+  }
+
+  .classroom-thecode
+  {
+    font-size:16px;
+    color:rgb(25,103,210);
+    font-weight: 700;
+  }
+
+  .classroom-inputs
+  {
+    border: 1px solid #949da7 !important;
+  }
+
+  
+
+  
+
+
+
+
+

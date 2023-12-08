@@ -1,0 +1,106 @@
+.classroomContainer
+{
+    height:380px;
+    border-radius:10px;
+    width: calc(23% - 10px); 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    border: 0.0625rem solid rgb(218,220,224);
+}
+
+.firstsection
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20%;
+
+    border-bottom: 0.0625rem solid rgb(218,220,224);
+    background-color:#ffe3c3;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.classroomName
+{
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    font-size:17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform:capitalize;
+}
+.dropdown-item
+{
+    cursor: pointer;
+}
+
+.classroomDropdown.dropdown-menu.show
+{
+    margin-left: -2% !important;
+}
+
+.classroom-item
+{
+    padding: 5px 15px!important;
+}
+.classroomDropdown 
+{
+    min-width:20px !important;
+    max-width:80px !important;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.secondsection
+{
+    height:80%;
+    margin-bottom:5px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.threeDots
+{
+    padding-top:4px;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeDots:hover{
+    background-color: rgba(169, 169, 169, 0.5);
+    border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+    .classroomContainer {
+        width: calc(35% - 10px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .classroomContainer {
+        width: calc(50% - 10px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .classroomContainer {
+        width: 100%; 
+    }
+}
+
+.addNoteButton
+  {
+    background-color: rgb(25,103,210) !important;
+    color:white !important;
+  }
+
+.addNoteButton:focus
+  {
+    background-color: rgb(25,103,210) !important;
+    box-shadow:none !important;
+  }

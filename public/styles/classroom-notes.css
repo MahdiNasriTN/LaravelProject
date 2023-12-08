@@ -1,0 +1,142 @@
+
+
+.classroomNotesContainer
+{
+    width:100%;
+}
+.classroom-name-note
+{
+    width:100%;
+    display:flex;
+}
+.classroom-name-content
+{
+    margin-left:10px;
+    width:20%;
+    height:120px;
+    margin-right:50px;
+    border: 1px solid transparent;
+    border-color: #e0e0e0;
+    border-radius:15px;
+    display:flex;
+    padding:32px;
+    padding-left:60px;
+}
+
+.classroom-note-content
+{
+    width:100%;
+    height:120px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    border-radius:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.classroom-title-input
+{
+    width:20%;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.classroom-note-input
+{
+    width:80%;
+    margin-right:20px;
+}
+
+.classroom-form-inputs
+{
+    width:50%;
+}
+
+.classroom-note-content-inside
+{
+    display:flex;
+}
+
+.classroom-Add-Button
+{
+    width:fit-content;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top:10px;
+}
+
+.classroom-shownote
+{
+    margin-top:60px;
+    margin-left:10px;
+    height:fit-content;
+    overflow: auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: space-evenly; 
+    overflow: auto;
+    padding-right:10px;
+    padding-top:15px;
+    overflow-x: auto; 
+    justify-content: flex-start; 
+    align-items: flex-start;
+}
+
+.classroom-notes-cart
+{
+    display:flex;
+    flex-direction: column;
+    height:180px;
+    width: calc(25% - 10px); 
+    border: 1px solid transparent;
+    border-color: #e0e0e0;
+    border-radius: 8px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:8px;
+    transition: 0.2s ease-in;
+    margin-bottom: 10px;
+}
+
+.classroom-notes-cart:hover
+{
+    box-shadow: 0 5px 8px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+}
+
+.classroom-note-title
+{
+    padding-bottom:10px;
+    font-weight:bolder;
+    font-size:19px;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.classroom-note-description {
+    font-size: 17px;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Set the number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.classroom-note-description.with-ellipsis::after {
+    content: '...';
+    position: relative;
+    top: -1.5em;
+    left: 100%;
+    float: right;
+    margin-left: -1.5em;
+    padding-right: 1.5em;
+    background: linear-gradient(to right, transparent, white 50%);
+}
+
+
+
+
+
